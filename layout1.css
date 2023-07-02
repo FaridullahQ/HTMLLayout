@@ -1,0 +1,47 @@
+body
+{
+	background-color: lightblue;
+
+}
+.gen_div{
+	text-align: center;
+}
+.head_div{
+	background-color: lightcyan;
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.sec_div{
+	background-color: royalblue;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 20px;
+	width: 80%;
+	float: left;
+	height: 500px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.nav_div{
+	background-color: gray;
+	text-align: left;
+	font-size: 24px;
+	padding-top: 20px;
+	width: 20%;
+	float: right;
+	height: 500px;
+	padding-bottom: 10px;
+	
+}
+
+.foot_div{
+	background-color: black;
+	text-align: left;
+	font-size: 24px;
+	padding-top: 10px;
+	height: 40px;
+	margin-top: 10px;
+}

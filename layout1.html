@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>layout</title>
+<link rel="stylesheet" type="text/css" href="layout1.css">
+<style type="text/css">
+	.head_des
+	{ background-color: black;
+		color: red;
+		border-block: 2px;
+		height: 50px;
+		text-align: center;
+		padding-top: 10px;
+
+	}
+.foot_des
+{background-color: black;
+color: red;
+height: 50px;
+text-align: center;
+padding-top: 10px;
+}
+.navdiv_des
+{
+	background-color: gray;
+	color: red;
+	width: 20%;
+	text-align: center;
+	float: right;
+	height: 400px;
+	padding-top: 10px;
+}
+.secdiv_des
+{
+background-color: lightskyblue;
+color: red;
+width: 80%;
+text-align: center;
+display: inline-block;
+height: 400px;
+}
+.first_secdiv
+{
+	background-color: green; 
+	width: 50%; 
+	height: 390px; 
+	color: white;
+	display: inline-block;
+}
+.second_secdiv
+{
+	background-color: red; 
+	width: 50%; 
+	height: 390px; 
+	color: white;
+	float: right;
+	display: inline-block;
+}
+ li{
+ 	padding-left: 10px;
+ }
+
+</style>
+</head>
+
+<body style="margin: 0px;">
+
+	<header class="head_des">
+		<ul style="list-style-type: none; display:flex;">
+			<li>Home</li>
+			<li>Contact</li>
+			<li>About Us</li>
+			<li>Login</li>
+		</ul>
+	</header>
+
+	<div class="secdiv_des" style="padding-top: 10px;">
+	<section>
+		<span class="first_secdiv">
+			<form style="text-align: left; font-family: arial; ">
+				<fieldset>
+					<legend>
+						<h2>Student Registration Form</h2>
+					</legend> 
+					
+					ID</br>
+					<input type="text" name="id" placeholder="Student ID" style=" width: 200px; "></br>
+					Name</br>
+					<input type="text" name="name" placeholder="Student Name"style=" width: 200px; "></br>
+					FName</br>
+					<input type="text" name="fathername" placeholder="Student Father Name"style=" width: 200px; "></br>
+					Gender</br>
+					<input type="radio"	name="gender" value="female">Male
+					<input type="radio"	name="gender" value="female">Female
+
+				</fieldset>
+			</form>
+		</span>
+		<span class="second_secdiv">
+
+		</span>
+	</section>
+	</div>
+
+	<div class="navdiv_des">
+	<nav>
+		This is Nav
+	</nav>
+	</div>
+</ul>
+	
+	<footer class="foot_des">&copy; 2023 &nbsp; <address>Kabul, Afghanistans</address></footer>
+
+</body>
+</html>
